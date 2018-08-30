@@ -1,0 +1,5 @@
+윈도우 API(Application Programming Interface)를 이용하여 구현한 간단한 슈팅 게임입니다.
+
+게임 시연 영상은 조만간 올릴 계획이며, git 주소를 첨부합니다.
+
+전체 소스코드 첨부 주소 : https://github.com/jinwonjun/2D_API_PORTFOLIO

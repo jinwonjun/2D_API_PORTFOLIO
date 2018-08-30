@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{3e130c1d-4670-409c-98b3-fd7e5a054d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Manager">
+      <UniqueIdentifier>{fac6863c-d848-40b9-87f4-6a842b372879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\mainGame">
+      <UniqueIdentifier>{7ff211c6-f65b-4313-8df1-1c26061e2816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\image">
+      <UniqueIdentifier>{19952615-7008-424f-9c6f-d3e736f34197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\mainGame\Game_Opening">
+      <UniqueIdentifier>{6ffdb807-6557-419e-8253-3e02a7439f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\mainGame\Field_1%28Starting_Point%29">
+      <UniqueIdentifier>{864e42be-97e4-4556-afaa-e4d2888a6d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\mainGame\MainCharacter">
+      <UniqueIdentifier>{82b5f625-9886-4475-b271-11e1529db37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\mainGame\NPC">
+      <UniqueIdentifier>{828b08e8-007a-489d-898b-b4f7f5309a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\mainGame\NPC\DR_O">
+      <UniqueIdentifier>{d7e4f171-7dc1-4425-93e5-8498ef651547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\mainGame\MainCharacter\PIKA_COMMENT">
+      <UniqueIdentifier>{e1545f8d-fa33-4b07-af07-9f000f721ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\mainGame\Battle_Scene">
+      <UniqueIdentifier>{6d555e94-2307-4d88-b35b-ab2096eb9218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\mainGame\Field_2%28Left%29">
+      <UniqueIdentifier>{e8b6e6dc-5787-4a4a-88ad-b43a911848f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\mainGame\INVENTORY">
+      <UniqueIdentifier>{b5c02bc1-9a11-458f-a3f1-569a2c74fcb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\mainGame\Field_3%28Silver_Mountain%29">
+      <UniqueIdentifier>{43a88268-2159-4bd6-a784-1be3ebfc9750}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>FrameWork\mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>FrameWork\image</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Opening.h">
+      <Filter>FrameWork\mainGame\Game_Opening</Filter>
+    </ClInclude>
+    <ClInclude Include="Field_1.h">
+      <Filter>FrameWork\mainGame\Field_1%28Starting_Point%29</Filter>
+    </ClInclude>
+    <ClInclude Include="mainCharacter.h">
+      <Filter>FrameWork\mainGame\MainCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="npc_dr_o.h">
+      <Filter>FrameWork\mainGame\NPC\DR_O</Filter>
+    </ClInclude>
+    <ClInclude Include="Pika_Comment.h">
+      <Filter>FrameWork\mainGame\MainCharacter\PIKA_COMMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_scene.h">
+      <Filter>FrameWork\mainGame\Battle_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Field_2.h">
+      <Filter>FrameWork\mainGame\Field_2%28Left%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>FrameWork\mainGame\INVENTORY</Filter>
+    </ClInclude>
+    <ClInclude Include="Silver_Mountain.h">
+      <Filter>FrameWork\mainGame\Field_3%28Silver_Mountain%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>FrameWork\mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>FrameWork\image</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Opening.cpp">
+      <Filter>FrameWork\mainGame\Game_Opening</Filter>
+    </ClCompile>
+    <ClCompile Include="Field_1.cpp">
+      <Filter>FrameWork\mainGame\Field_1%28Starting_Point%29</Filter>
+    </ClCompile>
+    <ClCompile Include="mainCharacter.cpp">
+      <Filter>FrameWork\mainGame\MainCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="npc_dr_o.cpp">
+      <Filter>FrameWork\mainGame\NPC\DR_O</Filter>
+    </ClCompile>
+    <ClCompile Include="Pika_Comment.cpp">
+      <Filter>FrameWork\mainGame\MainCharacter\PIKA_COMMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_scene.cpp">
+      <Filter>FrameWork\mainGame\Battle_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Field_2.cpp">
+      <Filter>FrameWork\mainGame\Field_2%28Left%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>FrameWork\mainGame\INVENTORY</Filter>
+    </ClCompile>
+    <ClCompile Include="Silver_Mountain.cpp">
+      <Filter>FrameWork\mainGame\Field_3%28Silver_Mountain%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
